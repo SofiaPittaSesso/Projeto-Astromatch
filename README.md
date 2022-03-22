@@ -22,7 +22,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## <h2 id="funciona">✔️ O que funciona</h2>
 
-* O usuário é capaz do clicar os botões de dar match ou de rejeitar os perfis disponíveis
+* O usuário é capaz de dar match ou rejeitar os perfis disponíveis
 * O usuário pode acessar a lista de perfis que deram um match de volta e limpar todos os matches dessa lista
 * O usuário receberá uma mensagem caso todos os perfis disponíves acabem
 
