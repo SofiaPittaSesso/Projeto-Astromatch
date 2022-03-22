@@ -30,13 +30,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Página Inicial  | Página das matches
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/94647334/159585404-0196857a-fd4c-4d64-9e8e-d33681636080.png)
- | ![image](https://user-images.githubusercontent.com/94647334/159585753-08784bd0-8085-4860-a0c8-60cc137232ff.png)
+![image](https://user-images.githubusercontent.com/94647334/159585404-0196857a-fd4c-4d64-9e8e-d33681636080.png) | ![image](https://user-images.githubusercontent.com/94647334/159585753-08784bd0-8085-4860-a0c8-60cc137232ff.png)
 
-Página Inicial sem novos perfis  | Página das matches
+Página Inicial sem novos perfis  | Página carregando
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/94647334/159585835-9564b987-f5d8-45aa-bcec-cda5967c3f3f.png)
- | ![image](https://user-images.githubusercontent.com/94647334/159586522-53f34671-4436-47d6-812d-2f04371974a0.png)
+![image](https://user-images.githubusercontent.com/94647334/159585835-9564b987-f5d8-45aa-bcec-cda5967c3f3f.png) | ![image](https://user-images.githubusercontent.com/94647334/159586522-53f34671-4436-47d6-812d-2f04371974a0.png)
 
   
 ## <h2 id="fontes">Fontes<h2>
