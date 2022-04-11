@@ -26,37 +26,22 @@ export default function InicialPage() {
             })
     }
 
-    const choosePerson = (id) => {
+    const chooseOrRejectProfile = (id, choice, setSwipe) => {
         const body = {
             id: id,
-            choice: true
+            choice: choice
         }
+        console.log(typeof setSwipe)
 
         axios.post(`${BaseUrl}/choose-person`, body)
             .then(() => {
                 getProfileToChoose()
-                setSwipeRight(true)
-                setTimeout(() => setSwipeRight(false), 500)
+                setSwipe(true)
+
+                setTimeout(() => setSwipe(false), 500)
             })
             .catch((error) => {
-                alert(error.response.data)
-            })
-    }
-
-    const rejectPerson = (id) => {
-        const body = {
-            id: id,
-            choice: false
-        }
-
-        axios.post(`${BaseUrl}/choose-person`, body)
-            .then(() => {
-                getProfileToChoose()
-                setSwipeLeft(true)
-                setTimeout(() => setSwipeLeft(false), 500);
-            })
-            .catch((error) => {
-                alert(error.response.data)
+                console.log(error.response || error.response.data)
             })
     }
 
@@ -76,11 +61,11 @@ export default function InicialPage() {
         <ButtonContainer>
             <button
                 id='reject-button'
-                onClick={() => rejectPerson(profile.id)}><img src={reject} alt='Icone de rejeitar perfil' />
+                onClick={() => chooseOrRejectProfile(profile.id, false, setSwipeLeft)}><img src={reject} alt='Icone de rejeitar perfil' />
             </button>
             <button
                 id='accept-button'
-                onClick={() => choosePerson(profile.id)}><img src={heart} alt='Icone de aceitar perfil' />
+                onClick={() => chooseOrRejectProfile(profile.id, true, setSwipeRight)}><img src={heart} alt='Icone de aceitar perfil' />
             </button>
         </ButtonContainer>
     </ProfileContainer>
