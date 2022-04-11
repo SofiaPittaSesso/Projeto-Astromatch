@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<h1 align="center" id="top" border="none">❤️ Astromatch 🔥</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Link do Surge: <a href="https://ossified-underwear.surge.sh/" target="_blank" title="Astromatch">Astromatch</a>
 
-## Available Scripts
+<div align="center">
+<a href="#sobre">Sobre</a> | <a href="#tecnologias">Tecnologias</a> | <a href="#funciona">O que funciona</a> | <a href='#img'>Imagens</a> | <a href='fontes'>Fontes</a>
+</div>
 
-In the project directory, you can run:
+## <h2 id="sobre">📓 Sobre<h2>
 
-### `npm start`
+<p align="center">🚀 Projeto desenvolvido conforme proposta do bootcamp ministrado pela Labenu para a criação de um App similiar ao Tinder, desenvolvido em React.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## <h2 id="tecnologias">🛠️ Tecnologias</h2> 
+As seguintes ferramentas foram usadas na construção do projeto:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* JavaScript
+* CSS
+* React
+* React Hooks
+* Styled-components
+* <a href="https://documenter.getpostman.com/view/7549981/SW12yx56?version=latest" target="_blank">API</a>
 
-### `npm test`
+## <h2 id="funciona">✔️ O que funciona</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* O usuário é capaz de dar match ou rejeitar os perfis disponíveis
+* O usuário pode acessar a lista de perfis que deram um match de volta e limpar todos os matches dessa lista
+* O usuário receberá uma mensagem caso todos os perfis disponíves acabem
 
-### `npm run build`
+## <h2 id="img">Imagens</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Página Inicial  | Página das matches
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/94647334/159585404-0196857a-fd4c-4d64-9e8e-d33681636080.png) | ![image](https://user-images.githubusercontent.com/94647334/159585753-08784bd0-8085-4860-a0c8-60cc137232ff.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Página Inicial sem novos perfis  | Página carregando
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/94647334/159585835-9564b987-f5d8-45aa-bcec-cda5967c3f3f.png) | ![image](https://user-images.githubusercontent.com/94647334/159586522-53f34671-4436-47d6-812d-2f04371974a0.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
+## <h2 id="fontes">Fontes<h2>
+  
+<p>Os ícones usados neste projeto foram baixados do <a href="https://www.flaticon.com/" target="blank">flaticon</a>.</p>
+  
+________________________________________
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href='#top'>Voltar para o topo</a>
